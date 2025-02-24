@@ -238,6 +238,7 @@ class CustomAgent(Agent):
             ai_content = ai_message.content
 
         ai_content = ai_content.replace("```json", "").replace("```", "")
+        
         ai_content = repair_json(ai_content)
         parsed_json = json.loads(ai_content)
         parsed: AgentOutput = self.AgentOutput(**parsed_json)

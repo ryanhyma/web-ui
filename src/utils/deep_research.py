@@ -325,6 +325,8 @@ async def generate_final_report(task, history_infos, save_dir, llm, error_msg=No
 *   **Data-Driven Comparisons with Tables:**  **When appropriate and beneficial for enhancing clarity and impact, present data comparisons in well-structured Markdown tables. This is especially encouraged when dealing with numerical data or when a visual comparison can significantly improve the reader's understanding.**
 *   **Length Adherence:** When the user specifies a length constraint, meticulously stay within reasonable bounds of that specification, ensuring the content is appropriately scaled without sacrificing quality or completeness.
 *   **Comprehensive Instruction Following:** Pay meticulous attention to all details and nuances provided in the user instructions. Strive to fulfill every aspect of the user's request with the highest degree of accuracy and attention to detail, creating a report that not only meets but exceeds expectations for quality and professionalism.
+*   ** AI Answers section:** Include in the report a section called AI Answers, where you will provide the answer to the question(s) asked by the user. It must be concise, contain relevant information that a Canadian Citizen should consider and MUST be 3-4 sentences long.
+*   ** User Journey section:** Include in the report a section called User Journey. Base on the experience and research provided, provide ideas for updates to the web content to make it easier to find and answer the user's question. 
 *   **Reference List Formatting:** The reference list at the end must be formatted as follows:  
     `[1] Title (URL, if available)`
     **Each reference must be separated by a blank line to ensure proper spacing.** For example:

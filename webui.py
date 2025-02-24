@@ -706,13 +706,7 @@ def create_ui(config, theme_name="Ocean"):
             title="Browser Use WebUI", theme=theme_map[theme_name], css=css
     ) as demo:
         with gr.Row():
-            gr.Markdown(
-                """
-                # 🌐 Browser Use WebUI
-                ### Control your browser with AI assistance
-                """,
-                elem_classes=["header-text"],
-            )
+            gr.Markdown("🤖 AI Answers Researcher", elem_classes=["header-text"])
 
         with gr.Tabs() as tabs:
             with gr.TabItem("⚙️ Agent Settings", id=1):

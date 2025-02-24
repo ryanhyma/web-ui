@@ -55,6 +55,7 @@ class CustomSystemPrompt(SystemPrompt):
    - If stuck, try alternative approaches
    - Handle popups/cookies by accepting or closing them
    - Use scroll to find elements you are looking for
+   - If on a blank page then use then call go_to_url 
 
 5. TASK COMPLETION:
    - If you think all the requirements of user\'s instruction have been completed and no further operation is required, output the **Done** action to terminate the operation process.
